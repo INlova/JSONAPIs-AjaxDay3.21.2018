@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<script>
+	/*global $*/
+	    $(document).ready(function() {
+	      $("#getMessage").on("click", function(){
+	        // Only change code below this line.
+	        $(".message").html("Here is the message");
+	        // Only change code above this line.
+	      });
+	    });
+	</script>
+	<title></title>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row text-center">
+			<h2>Cat Photo Finder</h2>
+		</div>
+		<div class="row text-center">
+			<div class="col-xs-12 well message">
+				The message will go here
+			</div>
+		</div>
+		<div class="row text-center">
+			<div class="col-xs-12">
+				<button class="btn btn-primary" id="getMessage">Get Message</button>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
